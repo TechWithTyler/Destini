@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		8D4915E828AC3F6C00A076C4 /* Destini-iOS13.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Destini-iOS13.entitlements"; sourceTree = "<group>"; };
-		AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7631D022FC5E7E00C6E71B /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD7631D722FC5E7E00C6E71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		AD7631D122FC5E7E00C6E71B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */,
+				AD7631D022FC5E7E00C6E71B /* Destini.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */ = {
+		AD7631CF22FC5E7E00C6E71B /* Destini */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini-iOS13" */;
+			buildConfigurationList = AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini" */;
 			buildPhases = (
 				AD7631CC22FC5E7E00C6E71B /* Sources */,
 				AD7631CD22FC5E7E00C6E71B /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = "Destini-iOS13";
+			name = Destini;
 			productName = "Destini-iOS13";
-			productReference = AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */;
+			productReference = AD7631D022FC5E7E00C6E71B /* Destini.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */;
+			buildConfigurationList = AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */,
+				AD7631CF22FC5E7E00C6E71B /* Destini */,
 			);
 		};
 /* End PBXProject section */
@@ -338,7 +338,7 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -360,14 +360,14 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */ = {
+		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD7631E222FC5E8300C6E71B /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini-iOS13" */ = {
+		AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AD7631E522FC5E8300C6E71B /* Debug */,
